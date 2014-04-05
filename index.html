@@ -21,28 +21,24 @@
 	<hr>
     
     <div class="row">
-      <div class="large-6 columns">
-		<div class="panel">
-			<h3>What is a Cross Site Forgery Request?</h3>
-			<blockquote>
-				<p>CSRF is the practice of tricking the user into inadvertently issuing an HTTP request to one of these sites without their knowledge, usually with malicious intent. This attack pattern is known as the <a href="http://en.wikipedia.org/wiki/Confused_Deputy">confused deputy problem</a> as it’s fooling the user into misusing their authority.</p>
-				<p>A CSRF attack forces a logged-on victim’s browser to send a forged HTTP request, including the victim’s session cookie and any other automatically included authentication information, to a vulnerable web application. This allows the attacker to force the victim’s browser to generate requests the vulnerable application thinks are legitimate requests from the victim.</p>
-				<cite>Troy Hunt, <a href="http://www.troyhunt.com/2010/11/owasp-top-10-for-net-developers-part-5.html">http://www.troyhunt.com</a></cite>
-			</blockquote>
-		</div>
+      <div class="large-6 columns">		
+		<h3>What is a Cross Site Forgery Request?</h3>
+		<blockquote>
+			<p>CSRF is the practice of tricking the user into inadvertently issuing an HTTP request to one of these sites without their knowledge, usually with malicious intent. This attack pattern is known as the <a href="http://en.wikipedia.org/wiki/Confused_Deputy">confused deputy problem</a> as it’s fooling the user into misusing their authority.</p>
+			<p>A CSRF attack forces a logged-on victim’s browser to send a forged HTTP request, including the victim’s session cookie and any other automatically included authentication information, to a vulnerable web application. This allows the attacker to force the victim’s browser to generate requests the vulnerable application thinks are legitimate requests from the victim.</p>
+			<cite>Troy Hunt, <a href="http://www.troyhunt.com/2010/11/owasp-top-10-for-net-developers-part-5.html">http://www.troyhunt.com</a></cite>
+		</blockquote>		
       </div>
-	  <div class="large-6 columns">
-	  	<div class="panel">
-	  		<h3>Instructions</h3>
-	  		<p>To execute a CSRF attack, you will need to be logged in to the target website in a separate tab. Once that's done...</p>
-			<ol>
-	  			<li>Define the base URL (no parameters).</li>
-	  			<li>Add parameters (must be added in the order expected by the endpoint).</li>
-	  			<li>Execute your choice of CSRF attacks.</li>
-	  			<li>???</li>
-	  			<li>Profit.  And verify that something naughty happened.</li>
-	  		</ol>
-	  	</div>
+	  <div class="large-6 columns">	  	
+		<h3>Instructions</h3>
+		<p>To execute a CSRF attack, you will need to be logged in to the target website in a separate tab. Once that's done...</p>
+		<ol>
+			<li>Define the base URL (no parameters).</li>
+			<li>Add parameters (must be added in the order expected by the endpoint).</li>
+			<li>Execute your choice of CSRF attacks.</li>
+			<li>???</li>
+			<li>Profit.  And verify that something naughty happened.</li>
+		</ol>
 	  </div>
     </div>
 
